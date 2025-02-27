@@ -1,4 +1,4 @@
 {
   "automerge": true,
-  "automergePr": "pr"
+  "automergeType": "pr"
 }
