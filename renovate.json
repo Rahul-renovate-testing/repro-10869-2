@@ -1,0 +1,5 @@
+{
+  "automergeStrategy": "rebase",
+  "automerge": true,
+  "automergePr": "pr"
+}
