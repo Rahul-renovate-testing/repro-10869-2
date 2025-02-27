@@ -1,0 +1,25 @@
+name: Dummy Check
+
+
+
+on:
+
+  pull_request:
+
+    branches: [ "main" ]
+
+
+
+jobs:
+
+  dummy_check:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - name: Run dummy check
+
+        run: echo "Dummy check passed!"
